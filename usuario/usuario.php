@@ -1,7 +1,7 @@
 <?php
 
 include('../log/validar.php');
-include('../menu/menu.php')
+include('../menu/menu.php');
 
 
 ?>
@@ -31,7 +31,7 @@ include('../menu/menu.php')
                 <button class="boton-portada" onclick="window.location.href = '#'">trocar capa</button>
 
                 </button>
-                <button onclick="window.location.href = 'edicao/edicao.php'" class="boton-por">
+                <button onclick="window.location.href = 'edicao.php'" class="boton-por">
                     editar perfil
                 </button>
             </div>
@@ -39,50 +39,78 @@ include('../menu/menu.php')
 
 
         <div class="perfil-usuario-body">
-        <div class="container-fluid text-center  ">
+            <div class="container-fluid text-center  ">
 
-<div class="container ">
-
-
-    <div class="row ">
-
-        <div class="perfil-usuario-bio">
-
-            <h3 class="titulo"><?php echo $_SESSION['Login']; ?></h3>
-            <!--Exibe o nome da sessão iniciada-->
+                <div class="container2">
 
 
+                    <div class="row ">
 
-            <ul class="lista-datos">
-                <li><a href="" class="icono fas fa-map-signs"></a> Localização:</li>
-                <!--colocar um echo para exibir a rua-->
-                <li><a href="" class="icono fas fa-phone-alt"></a> Telefone:</li>
-                <!--colocar um echo para exibir o telefone-->
-                <li><a href="" class="icono fas fa-briefcase"></a> Estuda em:</li>
-                <!--colocar um echo para exibir a instituição -->
-                <a href="../index.php">sair</a>
+                        <div class="perfil-usuario-bio">
 
-            </ul>
+                            <h3 class="titulo"><?php echo $_SESSION['Login']; ?></h3>
+                            <!--Exibe o nome da sessão iniciada-->
+
+
+
+                            <ul class="lista-datos">
+                                <li><a href="" class="icono fas fa-map-signs"></a> Localização:</li>
+                                <!--colocar um echo para exibir a rua-->
+                                <li><a href="" class="icono fas fa-phone-alt"></a> Telefone:</li>
+                                <!--colocar um echo para exibir o telefone-->
+                                <li><a href="" class="icono fas fa-briefcase"></a> Estuda em:</li>
+                                <!--colocar um echo para exibir a instituição -->
+                            </ul>
+
+                        </div>
+
+
+
+
+
+
+                    </div>
+                </div>
+
+            </div>
+            <div class="container1 container">
+
+
+                <div class="row ">
+
+                    <div class="perfil-usuario-bio">
+
+                        <h3 class="titulo"><?php echo $_SESSION['Login']; ?></h3>
+                        <!--Exibe o nome da sessão iniciada-->
+
+
+
+                        <ul class="lista-datos">
+                            <li><a href="" class="icono fas fa-map-signs"></a> Localização:</li>
+                            <!--colocar um echo para exibir a rua-->
+                            <li><a href="" class="icono fas fa-phone-alt"></a> Telefone:</li>
+                            <!--colocar um echo para exibir o telefone-->
+                            <li><a href="" class="icono fas fa-briefcase"></a> Estuda em:</li>
+                            <!--colocar um echo para exibir a instituição -->
+                        </ul>
+
+                    </div>
+
+
+
+
+
+
+                </div>
+            </div>
 
         </div>
 
 
 
-
-
-
-    </div>
-</div>
-
-</div>
-
-
-
-
     </section>
+
 
 </body>
 
 </html>
-
-

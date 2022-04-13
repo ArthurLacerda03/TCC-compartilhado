@@ -74,12 +74,37 @@ body {
     z-index: 1;
 
 }
+.container1 {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 1.5rem 2rem;
+    background-color: #fff;
+    margin-top: 3%;
+    border-bottom-style:groove ;
+    border-radius: 15px;
+    box-shadow: 0 0 12px #000000;
+    
+}
+
+.container2 {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 1.5rem 2rem;
+    background-color: #fff;
+    margin-top: 3%;
+    border-bottom-style:groove ;
+    
+}
+
 .container {
     display: flex;
     flex-wrap: wrap;
     padding: 1.5rem 2rem;
-    box-shadow: 0 0 12px rgba(0, 0, 0, .2);
     background-color: #fff;
+    margin-top: 3%;
+    border-bottom-style:groove ;
     border-radius: 15px;
-
+    box-shadow: 0 0 12px #000000;
+    
 }
+
